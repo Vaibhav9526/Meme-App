@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+.container{
+  text-align: center;
+  /* background: rgba(255, 255, 255, 0.685); */
+  color: white;
+}
+
+h2{
+  font-family: "Electrolize", sans-serif;
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #e46c1d 0%, #b63711 74%);  
+}
+
+.Home{
+  font-family: "Electrolize", sans-serif;
+  background-image: linear-gradient(315deg, #032025 0%, #ffce2d 74%);  
+  text-align: center;
+}
+
+.MyBtn{
+  width: 20vw;
+  border-radius: 2vw;
+  background: #ff0000a4;
+  border: 2px solid rgb(0, 0, 0);
+  color: white;
+}
+
+
+#footer-section {
+
+  background: #000000;
+  border-top: 1px solid #eeeeee;
+}
+
+
+p.copyright {
+  padding-top: 40px;
+}
+
+.PageSwitch{
+  display: grid;
+  place-items: center;
+}
+
+.SmallSize{
+  font-size: 3vw;
+}
+
+.HindiBtn{
+  width: 50vw;
+  background: rgba(255, 0, 0, 0.568);
+  border: 2px solid #000000;
+  border-radius: 2vw;
+}
+
+.announcement-top-bar {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+}
+
