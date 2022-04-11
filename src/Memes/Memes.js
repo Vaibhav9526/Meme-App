@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageSwitch from '../component/PageSwitch';
 
 export const Memes = (props) => {
+    useEffect(() => {
+        window.scrollTo({ behavior: 'smooth', top: '0px' });
+      }, [Memes]);
+
     const MemeArray = {
         meme1: '(╯°□°）╯︵ ┻━┻',
         meme2: '┻━┻ ︵ ヽ(°□°ヽ)',

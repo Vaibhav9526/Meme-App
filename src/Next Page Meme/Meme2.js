@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PageSwitch from '../component/PageSwitch';
 
 const Meme2 = (props) => {
+
+    useEffect(() => {
+        window.scrollTo({ behavior: 'smooth', top: '0px' });
+      }, [Meme2]);
 
     return (
         <>

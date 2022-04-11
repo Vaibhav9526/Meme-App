@@ -17,8 +17,8 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setmode('dark')
-      document.body.style.backgroundColor = '#133B5C'
-      showAlert('Dark Mode Enabled', 'success')
+      document.body.style.backgroundImage = "url('https://www.wamoresearch.org/wp-content/uploads/2018/04/cool-background-designs-26.jpg')"
+      showAlert('Crazy Dark Mode Enabled', 'success')
 
     } else {
       setmode('light')
