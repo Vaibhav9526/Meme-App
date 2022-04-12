@@ -4,11 +4,13 @@ import About from './component/About';
 import Error from './component/Error';
 import Navbar from './Memes/Navbar'
 import Memes from './Memes/Memes'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Alert from './component/Alert';
 import Note from './component/Note';
 import Footer from './component/Footer';
 import Meme2 from './Next Page Meme/Meme2';
+// import Loading from './component/Loader';
+import ReactLoading from 'react-loading';
 
 function App() {
 
@@ -39,9 +41,20 @@ function App() {
     }, 1000);
   }
 
+
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+  })
+  
   return (
     <>
-      <BrowserRouter>
+    <center>
+    {isLoading==true?
+        <ReactLoading className='spinner' type={"bars"} color={"#064663"} height={100} width={100} />:
+        <BrowserRouter>
         <Navbar title="EMOTICONS APP" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="App">
@@ -55,6 +68,8 @@ function App() {
           <Footer/>
         </div>
       </BrowserRouter>
+      }
+      </center>
     </>
   );
 }

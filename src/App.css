@@ -62,3 +62,8 @@ p.copyright {
   position: sticky;
   top: 0;
 }
+.spinner{
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
