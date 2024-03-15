@@ -67,7 +67,7 @@ export const Memes = (props) => {
                 </button>
             </div>
             <div className="Home">
-                <h1>Emoticons App</h1>
+                <h1>StickArtly</h1>
             </div>
             <div className="container" style={{ color: props.mode === 'light' ? 'black' : 'white' }}>
                 <div className="memeDisplay my-5">
