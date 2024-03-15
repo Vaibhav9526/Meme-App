@@ -19,7 +19,7 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setmode('dark')
-      document.body.style.backgroundColor = '#383C44'
+      document.body.style.backgroundColor = '#343a40'
       showAlert('Crazy Dark Mode Enabled', 'success')
 
     } else {
