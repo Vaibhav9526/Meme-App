@@ -19,7 +19,7 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setmode('dark')
-      document.body.style.backgroundImage = "url('https://www.wamoresearch.org/wp-content/uploads/2018/04/cool-background-designs-26.jpg')"
+      document.body.style.backgroundImage = "url(/Memes/black gradient wallpaper for website.jpg)"
       showAlert('Crazy Dark Mode Enabled', 'success')
 
     } else {
