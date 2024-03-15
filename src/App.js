@@ -19,7 +19,7 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setmode('dark')
-      document.body.style.backgroundImage = "url(/Memes/black gradient wallpaper for website.jpg)"
+      document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1550684376-efcbd6e3f031?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
       showAlert('Crazy Dark Mode Enabled', 'success')
 
     } else {
