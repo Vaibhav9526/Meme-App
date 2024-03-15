@@ -7,13 +7,13 @@
 }
 
 h2{
-  font-family: "Electrolize", sans-serif;
+  font-family: "Press Start 2P", system-ui;
   background-color: #b3cdd1;
   background-image: linear-gradient(315deg, #e46c1d 0%, #b63711 74%);  
 }
 
 .Home{
-  font-family: "Electrolize", sans-serif;
+  font-family: "Press Start 2P", system-ui;
   background-image: linear-gradient(315deg, #032025 0%, #ffce2d 74%);  
   text-align: center;
 }
