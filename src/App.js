@@ -55,7 +55,7 @@ function App() {
     {isLoading==true?
         <ReactLoading className='spinner' type={"bars"} color={"#064663"} height={100} width={100} />:
         <BrowserRouter>
-        <Navbar title="EMOTICONS APP" mode={mode} toggleMode={toggleMode} />
+        <Navbar title="SticArtly" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="App">
           <Routes>
