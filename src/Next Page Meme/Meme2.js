@@ -23,7 +23,49 @@ const Meme2 = (props) => {
 
             <div className="container" style={{ color: props.mode === 'light' ? 'black' : 'white' }}>
                 <div className="memeDisplay my-5">
+                <u><h2>ONE PUNCH MAN</h2></u>
+                <br/>
+                <h4 className='SmallSize'>
+         ⣠⣴⣶⡋⠉⠙⠒⢤⡀⠀⠀⠀⠀⠀⢠⠖⠉⠉⠙⠢⡄⠀
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⠀⢀⣼⣟⡒⠒⠀⠀⠀⠀⠀⠙⣆⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠹⡄
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⠀⣼⠷⠖⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⢷
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⠀⣷⡒⠀⠀⢐⣒⣒⡒⠀⣐⣒⣒⣧⠀⠀⡇⠀⢠⢤⢠⡠⠀⠀⢸
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⢰⣛⣟⣂⠀⠘⠤⠬⠃⠰⠑⠥⠊⣿⠀⢴⠃⠀⠘⠚⠘⠑⠐⠀⢸
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⢸⣿⡿⠤⠀⠀⠀⠀⠀⢀⡆⠀⠀⣿⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⣸
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⠈⠿⣯⡭⠀⠀⠀⠀⢀⣀⠀⠀⠀⡟⠀⠀⢸⠀⠀⠀⠀⠀⠀⢠⠏
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⠀⠀⠈⢯⡥⠄⠀⠀⠀⠀⠀⠀⡼⠁⠀⠀⠀⠳⢄⣀⣀⣀⡴⠃⠀
+ <h4 className='SmallSize'>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢱⡦⣄⣀⣀⣀⣠⠞⠁⠀⠀⠀⠀⠀⠀⠈⠉⠀
+                 <h4 className='SmallSize'>⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⠛⠃⠀⠀⠀⢹⠳⡶⣤⡤⣄⠀
+     <h4 className='SmallSize'>⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⢴⣿⣿⣿⡟⡷⢄⣀⣀⣀⡼⠳⡹⣿⣷⠞⣳⠀
+     <h4 className='SmallSize'>⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢰⡯⠭⠹⡟⠿⠧⠷⣄⣀⣟⠛⣦⠔⠋⠛⠛⠋⠙⡆
+     <h4 className='SmallSize'>⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⠭⠉⠀⢠⣤⠀⠀⠀⠘⡷⣵⢻⠀⠀⠀⠀⣼⠀⣇
+     <h4 className='SmallSize'>⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⡇⣿⠍⠁⠀⢸⣗⠂⠀⠀⠀⣧⣿⣼⠀⠀⠀⠀⣯⠀⢸⠀
+     <h4 className='SmallSize'>⠀⠀                
+                
+                
 
+
+
+
+
+
+
+
+
+                
                 <u><h2>LOL</h2></u>
                 <br/>               
                     <h4 className='SmallSize'>╭╭━━━╮╮┈┈┈┈┈┈┈┈┈</h4>
